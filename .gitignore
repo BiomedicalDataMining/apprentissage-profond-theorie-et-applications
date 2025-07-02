@@ -1,0 +1,27 @@
+# Dossiers de sauvegarde automatique Jupyter
+.ipynb_checkpoints/
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+*.pyo
+
+# Environnements virtuels
+env/
+.venv/
+venv/
+.env/
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Données volumineuses
+*.h5
+*.ckpt
+*.onnx
+*.pth
+
+# Fichiers système
+.DS_Store
+Thumbs.db

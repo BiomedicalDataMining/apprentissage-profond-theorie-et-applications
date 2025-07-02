@@ -1,0 +1,27 @@
+RÉSULTATS DE L'EXPÉRIENCE DE TRANSFERT D'APPRENTISSAGE
+=======================================================
+
+Configuration : Conv+Flatten+Dense, première couche figée
+Seuil de convergence : précision de 0.90
+
+Modèle                    Précision  Temps d’entraînement Époques pour 90%    
+--------------------------------------------------------------------------------
+Transfert d’apprentissage 0.9069    634.39s              15
+Depuis zéro               0.9003    594.92s              21
+Avantage                  0.0066    -39.46s              6 époques (28.6 % plus rapide)
+
+RÉSULTATS DE L’ANALYSE
+======================
+
+Différence de précision : 0.0066 (0.66 %)
+Temps économisé à l'entraînement : -39.46 secondes (-6.63 %)
+Avantage en vitesse de convergence : 6 époques (28.6 %)
+
+VERDICT FINAL :
+
+✅ Le transfert d'apprentissage fournit une LÉGÈRE AMÉLIORATION DE LA PRÉCISION par rapport au modèle depuis zéro.
+❌ Le transfert d'apprentissage n'est PAS plus rapide que l'apprentissage depuis zéro.
+✅ Le transfert d'apprentissage CONVERGE BEAUCOUP PLUS VITE que le modèle depuis zéro.
+
+ÉVALUATION GLOBALE :
+✅✅ Le transfert d'apprentissage présente des AVANTAGES CLAIRS sur la majorité des critères.
